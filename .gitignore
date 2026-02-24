@@ -1,3 +1,4 @@
+__pycache__/
 .env
 data/
 matricula_data_clean.json
