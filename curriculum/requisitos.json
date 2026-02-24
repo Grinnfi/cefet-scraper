@@ -1,0 +1,796 @@
+[
+    {
+        "disciplina": "\u00c1lgebra Linear I",
+        "pre_requisitos": [],
+        "periodo": "1"
+    },
+    {
+        "disciplina": "Arquitetura de Computadores",
+        "pre_requisitos": [],
+        "periodo": "1"
+    },
+    {
+        "disciplina": "C\u00e1lculo a uma Vari\u00e1vel",
+        "pre_requisitos": [],
+        "periodo": "1"
+    },
+    {
+        "disciplina": "Introdu\u00e7\u00e3o \u00e0 Administra\u00e7\u00e3o",
+        "pre_requisitos": [],
+        "periodo": "1"
+    },
+    {
+        "disciplina": "L\u00f3gica Matem\u00e1tica",
+        "pre_requisitos": [],
+        "periodo": "1"
+    },
+    {
+        "disciplina": "Projeto de Algoritmos Computacionais",
+        "pre_requisitos": [],
+        "periodo": "1"
+    },
+    {
+        "disciplina": "Algebra Linear II",
+        "pre_requisitos": [
+            "Algebra Linear I"
+        ],
+        "periodo": "2"
+    },
+    {
+        "disciplina": "Arquiteturas Avan\u00e7adas de Computadores",
+        "pre_requisitos": [
+            "Arquitetura de Computadores"
+        ],
+        "periodo": "2"
+    },
+    {
+        "disciplina": "C\u00e1lculo a V\u00e1rias Vari\u00e1veis",
+        "pre_requisitos": [
+            "C\u00e1lculo a uma Vari\u00e1vel"
+        ],
+        "periodo": "2"
+    },
+    {
+        "disciplina": "Ci\u00eancias Ambientais",
+        "pre_requisitos": [],
+        "periodo": "2"
+    },
+    {
+        "disciplina": "Estruturas de Dados",
+        "pre_requisitos": [
+            "Projeto de Algoritmos Computacionais"
+        ],
+        "periodo": "2"
+    },
+    {
+        "disciplina": "Matem\u00e1tica Discreta",
+        "pre_requisitos": [],
+        "periodo": "2"
+    },
+    {
+        "disciplina": "Sistemas Operacionais",
+        "pre_requisitos": [
+            "Arquitetura de Computadores"
+        ],
+        "periodo": "2"
+    },
+    {
+        "disciplina": "Empreendedorismo",
+        "pre_requisitos": [],
+        "periodo": "3"
+    },
+    {
+        "disciplina": "Engenharia de Requisitos",
+        "pre_requisitos": [],
+        "periodo": "3"
+    },
+    {
+        "disciplina": "Equa\u00e7\u00f5es Diferenciais Ordin\u00e1rias",
+        "pre_requisitos": [
+            "C\u00e1lculo a V\u00e1rias Vari\u00e1veis"
+        ],
+        "periodo": "3"
+    },
+    {
+        "disciplina": "Fundamentos de Redes de Computadores",
+        "pre_requisitos": [],
+        "periodo": "3"
+    },
+    {
+        "disciplina": "Humanidades e Ci\u00eancias Sociais",
+        "pre_requisitos": [],
+        "periodo": "3"
+    },
+    {
+        "disciplina": "Programa\u00e7\u00e3o Orientada a Objetos",
+        "pre_requisitos": [
+            "Projeto de Algoritmos Computacionais"
+        ],
+        "periodo": "3"
+    },
+    {
+        "disciplina": "Sistemas Digitais",
+        "pre_requisitos": [],
+        "periodo": "3"
+    },
+    {
+        "disciplina": "An\u00e1lise e Projeto de Sistemas",
+        "pre_requisitos": [
+            "Engenharia de Requisitos",
+            "Programa\u00e7\u00e3o Orientada a Objetos"
+        ],
+        "periodo": "4"
+    },
+    {
+        "disciplina": "C\u00e1lculo Num\u00e9rico",
+        "pre_requisitos": [
+            "C\u00e1lculo a uma Vari\u00e1vel",
+            "Algebra Linear I",
+            "Projeto de Algoritmos Computacionais"
+        ],
+        "periodo": "4"
+    },
+    {
+        "disciplina": "Ger\u00eancia de Projetos de Tecnologia da Informa\u00e7\u00e3o",
+        "pre_requisitos": [
+            "Engenharia de Requisitos"
+        ],
+        "periodo": "4"
+    },
+    {
+        "disciplina": "Organiza\u00e7\u00e3o de Estruturas de Arquivos",
+        "pre_requisitos": [
+            "Estruturas de Dados"
+        ],
+        "periodo": "4"
+    },
+    {
+        "disciplina": "Programa\u00e7\u00e3o de Software para Web",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o Orientada a Objetos"
+        ],
+        "periodo": "4"
+    },
+    {
+        "disciplina": "Projeto de Banco de Dados",
+        "pre_requisitos": [
+            "Engenharia de Requisitos"
+        ],
+        "periodo": "4"
+    },
+    {
+        "disciplina": "Administra\u00e7\u00e3o de Banco de Dados",
+        "pre_requisitos": [
+            "Projeto de Banco de Dados"
+        ],
+        "periodo": "5"
+    },
+    {
+        "disciplina": "Arquitetura de Linguagens de Programa\u00e7\u00e3o",
+        "pre_requisitos": [
+            "Estruturas de Dados"
+        ],
+        "periodo": "5"
+    },
+    {
+        "disciplina": "Arquitetura e Padr\u00f5es de Software",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o de Software para Web",
+            "An\u00e1lise e Projeto de Sistemas"
+        ],
+        "periodo": "5"
+    },
+    {
+        "disciplina": "Engenharia de Software",
+        "pre_requisitos": [
+            "Engenharia de Requisitos"
+        ],
+        "periodo": "5"
+    },
+    {
+        "disciplina": "Estat\u00edstica e Probabilidade",
+        "pre_requisitos": [
+            "Projeto de Algoritmos Computacionais",
+            "Matem\u00e1tica Discreta"
+        ],
+        "periodo": "5"
+    },
+    {
+        "disciplina": "Metodologia Cient\u00edfica",
+        "pre_requisitos": [],
+        "periodo": "5"
+    },
+    {
+        "disciplina": "Algoritmos em Grafos",
+        "pre_requisitos": [
+            "Matem\u00e1tica Discreta"
+        ],
+        "periodo": "6"
+    },
+    {
+        "disciplina": "Infer\u00eancia Estat\u00edstica",
+        "pre_requisitos": [
+            "Estat\u00edstica e Probabilidade"
+        ],
+        "periodo": "6"
+    },
+    {
+        "disciplina": "Intelig\u00eancia Computacional",
+        "pre_requisitos": [
+            "Estat\u00edstica e Probabilidade"
+        ],
+        "periodo": "6"
+    },
+    {
+        "disciplina": "Intera\u00e7\u00e3o Humano-Computador",
+        "pre_requisitos": [
+            "Engenharia de Requisitos"
+        ],
+        "periodo": "6"
+    },
+    {
+        "disciplina": "Pr\u00e1tica em Pesquisa Aplicada",
+        "pre_requisitos": [
+            "Metodologia Cient\u00edfica"
+        ],
+        "periodo": "6"
+    },
+    {
+        "disciplina": "Teoria da Computa\u00e7\u00e3o",
+        "pre_requisitos": [],
+        "periodo": "6"
+    },
+    {
+        "disciplina": "Compiladores",
+        "pre_requisitos": [
+            "Estruturas de Dados"
+        ],
+        "periodo": "7"
+    },
+    {
+        "disciplina": "Computa\u00e7\u00e3o Gr\u00e1fica",
+        "pre_requisitos": [
+            "C\u00e1lculo a V\u00e1rias Vari\u00e1veis",
+            "Algebra Linear II"
+        ],
+        "periodo": "7"
+    },
+    {
+        "disciplina": "Intelig\u00eancia Artificial",
+        "pre_requisitos": [
+            "Estruturas de Dados"
+        ],
+        "periodo": "7"
+    },
+    {
+        "disciplina": "Projeto e Constru\u00e7\u00e3o de Sistemas",
+        "pre_requisitos": [
+            "Arquitetura e Padr\u00f5es de Software"
+        ],
+        "periodo": "7"
+    },
+    {
+        "disciplina": "Sistemas Concorrentes e Distribu\u00eddos",
+        "pre_requisitos": [
+            "Sistemas Operacionais",
+            "Programa\u00e7\u00e3o Orientada a Objetos"
+        ],
+        "periodo": "7"
+    },
+    {
+        "disciplina": "Concep\u00e7\u00e3o e Elabora\u00e7\u00e3o de Projeto Final",
+        "pre_requisitos": [
+            "Pr\u00e1tica em Pesquisa Aplicada",
+            "An\u00e1lise e Projeto de Sistemas"
+        ],
+        "periodo": "7"
+    },
+    {
+        "disciplina": "Inform\u00e1tica e Sociedade",
+        "pre_requisitos": [],
+        "periodo": "8"
+    },
+    {
+        "disciplina": "Legisla\u00e7\u00e3o de Inform\u00e1tica",
+        "pre_requisitos": [],
+        "periodo": "8"
+    },
+    {
+        "disciplina": "Elabora\u00e7\u00e3o e Constru\u00e7\u00e3o de Projeto Final",
+        "pre_requisitos": [
+            "Concep\u00e7\u00e3o e Elabora\u00e7\u00e3o de Projeto Final"
+        ],
+        "periodo": "8"
+    },
+    {
+        "disciplina": "Administra\u00e7\u00e3o de Materiais",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Aplica\u00e7\u00f5es em Rob\u00f3tica",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Aplica\u00e7\u00f5es na Internet para TV Digital Interativa",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o Orientada a Objetos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Aplica\u00e7\u00f5es para Dispositivos M\u00f3veis",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o Orientada a Objetos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Aprendizado de M\u00e1quina",
+        "pre_requisitos": [
+            "Estruturas de Dados",
+            "Estat\u00edstica e Probabilidade"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "C\u00e1lculo Vetorial",
+        "pre_requisitos": [
+            "C\u00e1lculo a V\u00e1rias Vari\u00e1veis"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Ci\u00eancia de Redes",
+        "pre_requisitos": [
+            "Estat\u00edstica e Probabilidade",
+            "Algoritmos em Grafos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Comunica\u00e7\u00e3o Corporativa",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Desenvolvimento de Aplica\u00e7\u00f5es Ricas para Internet",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o Orientada a Objetos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Direito I",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Direito Empresarial",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Economia",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Economia Brasileira",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Equa\u00e7\u00f5es Diferenciais Parciais e S\u00e9ries (EDPS)",
+        "pre_requisitos": [
+            "Equa\u00e7\u00f5es Diferenciais Ordin\u00e1rias (EDO)"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "\u00c9tica Empresarial",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Express\u00e3o Oral e Escrita",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Fundamentos B\u00e1sicos de Sistemas Multimidia para Web",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Fundamentos de An\u00e1lise de Softwares Maliciosos",
+        "pre_requisitos": [
+            "Projeto de Algoritmos Computacionais",
+            "Sistemas Operacionais"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Fundamentos de Marketing",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Ger\u00eancia de Dados Semiestruturados",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o Orientada a Objetos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Gest\u00e3o da Informa\u00e7\u00e3o I",
+        "pre_requisitos": [
+            "Introdu\u00e7\u00e3o \u00e0 Administra\u00e7\u00e3o"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Gest\u00e3o da Inova\u00e7\u00e3o",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Gest\u00e3o de Pessoas I",
+        "pre_requisitos": [
+            "M\u00ednimo de 50 cr\u00e9ditos conclu\u00eddos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Gest\u00e3o de Tecnologia da Informa\u00e7\u00e3o",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Gest\u00e3o de Sa\u00fade e Seguran\u00e7a",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Gest\u00e3o e Pol\u00edticas P\u00fablicas",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Gest\u00e3o Estrat\u00e9gica",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Gest\u00e3o Estrat\u00e9gica da Informa\u00e7\u00e3o",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Ingl\u00eas B\u00e1sico",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Inova\u00e7\u00f5es Tecnol\u00f3gicas",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Institui\u00e7\u00f5es do Direito",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Intelig\u00eancia de Neg\u00f3cios (GCC1913)",
+        "pre_requisitos": [
+            "Projeto de Banco de Dados"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Intelig\u00eancia de Neg\u00f3cios (GPRO7840)",
+        "pre_requisitos": [
+            "Projeto de Algoritmos Computacionais",
+            "Estatistica e Probabilidade",
+            "Gest\u00e3o da Informa\u00e7\u00e3o"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Internet das Coisas",
+        "pre_requisitos": [
+            "Projeto de Algoritmos Computacionais"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Introdu\u00e7\u00e3o \u00e0 Economia",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Introdu\u00e7\u00e3o ao Blockchain e Aplica\u00e7\u00f5es Descentralizadas",
+        "pre_requisitos": [
+            "Arquitetura e Padr\u00f5es de Software",
+            "Sistemas Concorrentes e Distribu\u00eddos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Jogos Educacionais",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o Orientada a Objetos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "LIBRAS - L\u00edngua Brasileira de Sinais",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Manuten\u00e7\u00e3o e Evolu\u00e7\u00e3o de Software",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o Orientada a Objetos",
+            "Engenharia de Software"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Matem\u00e1tica Financeira",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Mec\u00e2nica B\u00e1sica",
+        "pre_requisitos": [
+            "C\u00e1lculo a Uma Vari\u00e1vel",
+            "Algebra Linear I"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Metodologia da Pesquisa Qualitativa",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Microeconomia",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Minera\u00e7\u00e3o de Dados",
+        "pre_requisitos": [
+            "Projeto de Banco de Dados"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Minera\u00e7\u00e3o de Processos",
+        "pre_requisitos": [
+            "Estruturas de Dados",
+            "Projeto de Banco de Dados"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Minera\u00e7\u00e3o de Texto",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o Orientada a Objetos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Modelagem de Problemas Quantitativos",
+        "pre_requisitos": [
+            "Algebra Linear I"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Otimiza\u00e7\u00e3o por Metaheur\u00edsticas",
+        "pre_requisitos": [
+            "Estruturas de Dados"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Pesquisa Operacional I",
+        "pre_requisitos": [
+            "C\u00e1lculo Num\u00e9rico",
+            "Algebra Linear I"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Pesquisa Operacional II",
+        "pre_requisitos": [
+            "Pesquisa Operacional I"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Pr\u00e1ticas em Responsabilidade Socioambiental",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Pr\u00e1ticas do Mercado de Trabalho",
+        "pre_requisitos": [
+            "M\u00ednimo de 50 cr\u00e9ditos conclu\u00eddos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Processamento de Imagens",
+        "pre_requisitos": [
+            "Projeto de Algoritmos Computacionais",
+            "Algebra Linear II"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Programa\u00e7\u00e3o de Clientes Web",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Programa\u00e7\u00e3o de Jogos",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o Orientada a Objetos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Programa\u00e7\u00e3o de Servidores Web",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o de Software para Web"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Programa\u00e7\u00e3o em L\u00f3gica",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o Orientada a Objetos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Programa\u00e7\u00e3o Linear",
+        "pre_requisitos": [
+            "C\u00e1lculo a v\u00e1rias vari\u00e1veis",
+            "Algebra Linear II",
+            "Matem\u00e1tica Discreta"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Psicologia Social",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Psicologia Social e do Trabalho",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Responsabilidade Social Corporativa",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Responsabilidade Social e Rela\u00e7\u00f5es \u00c9tnico-Raciais",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Seguran\u00e7a da Informa\u00e7\u00e3o",
+        "pre_requisitos": [
+            "Fund. de Redes de Computadores",
+            "Programa\u00e7\u00e3o de Software p/ Web"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Simula\u00e7\u00f5es Computacionais",
+        "pre_requisitos": [
+            "Estruturas de Dados",
+            "Algoritmos em Grafos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Simula\u00e7\u00f5es Empresariais",
+        "pre_requisitos": [
+            "Administra\u00e7\u00e3o Mercadol\u00f3gica II"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Simula\u00e7\u00e3o",
+        "pre_requisitos": [
+            "Estat\u00edstica e Probabilidade",
+            "Pesquisa Operacional I"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Teste de Software",
+        "pre_requisitos": [
+            "Engenharia de Requisitos",
+            "Programa\u00e7\u00e3o Orientada a Objetos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "T\u00f3picos Avan\u00e7ados em Sistemas Multimidia",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "T\u00f3picos Especiais em Computa\u00e7\u00e3o I",
+        "pre_requisitos": [],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "T\u00f3picos Especiais em Computa\u00e7\u00e3o Cient\u00edfica",
+        "pre_requisitos": [
+            "Projeto de Algoritmos Computacionais"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "T\u00f3picos Especiais em Intelig\u00eancia Computacional",
+        "pre_requisitos": [
+            "Intelig\u00eancia Computacional"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "T\u00f3picos Especiais em Mobilidade Urbana",
+        "pre_requisitos": [
+            "Projeto de Algoritmos Computacionais",
+            "T\u00f3picos Especiais em Computa\u00e7\u00e3o Cient\u00edfica"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "T\u00f3picos Especiais em Programa\u00e7\u00e3o I",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o Orientada a Objetos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "T\u00f3picos Especiais em Programa\u00e7\u00e3o II",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o Orientada a Objetos"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "T\u00f3picos Especiais em Programa\u00e7\u00e3o III",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o de Software para Web"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "T\u00f3picos Especiais em Programa\u00e7\u00e3o IV",
+        "pre_requisitos": [
+            "Programa\u00e7\u00e3o de Software para Web"
+        ],
+        "periodo": "0"
+    },
+    {
+        "disciplina": "Vari\u00e1veis Complexas",
+        "pre_requisitos": [
+            "C\u00e1lculo a V\u00e1rias Vari\u00e1veis"
+        ],
+        "periodo": "0"
+    }
+]
