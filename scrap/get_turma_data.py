@@ -85,7 +85,7 @@ def get_turma_data(session: requests.Session, turma_id: str) -> dict[str:str]:
 
 if __name__ == "__main__":
     import sys
-    from login import login
+    from scrap.login import login
     from pprint import pprint
 
     if len(sys.argv) > 1:

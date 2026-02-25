@@ -34,7 +34,7 @@ def get_turmas_matricula_data(session: requests.Session, matricula: str) -> dict
     return turma_id_data
 
 if __name__ == "__main__":
-    from login import login
+    from scrap.login import login
     # from pprint import pprint
     user_data, session = login()
     turma_id_data = get_turmas_matricula_data(session=session, matricula=user_data["matricula"])

@@ -27,7 +27,7 @@ def get_cursos_disponiveis_id (session: requests.Session, matricula: str) -> lis
     return curso_id_list
 
 if __name__ == "__main__":
-    from login import login
+    from scrap.login import login
     from pprint import pprint
     user_data, session = login()
     curso_id_list = get_cursos_disponiveis_id(session=session, matricula=user_data["matricula"])

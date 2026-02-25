@@ -1,16 +1,9 @@
-import sys
 import os
-
-# Adiciona o diretório atual ao path para importações locais
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-
-from scrap import (
-    login,
-    get_disciplinas_aprovadas,
-    get_turmas_matricula_data,
-    get_turmas_disponiveis_data
-)
-from transform import run_transformation
+from scrap.login import login
+from scrap.get_disciplinas_aprovadas import get_disciplinas_aprovadas
+from scrap.get_turmas_matricula_data import get_turmas_matricula_data
+from scrap.get_turmas_disponiveis_data import get_turmas_disponiveis_data
+from transform.transform_data import run_transformation
 
 def main():
     """

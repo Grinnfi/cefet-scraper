@@ -50,6 +50,6 @@ def get_turmas_disponiveis_data(session: requests.Session, matricula: str) -> di
     return turma_id_data
 
 if __name__ == "__main__":
-    from login import login
+    from scrap.login import login
     user_data, session = login()
     get_turmas_disponiveis_data(session=session, matricula=user_data["matricula"])

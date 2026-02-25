@@ -31,6 +31,6 @@ def get_disciplinas_aprovadas (session: requests.Session, matricula: str):
     return aprovados
 
 if __name__ == "__main__":
-    from login import login
+    from scrap.login import login
     user_data, session = login()
     get_disciplinas_aprovadas(session=session, matricula=user_data["matricula"])
