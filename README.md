@@ -7,6 +7,7 @@ Ferramenta automatizada para extração e processamento de dados do Portal do Al
 - **Raspagem Completa**: Obtém dados de disciplinas aprovadas, turmas matriculadas/solicitadas e oferta de turmas.
 - **Transformação de Dados**: Limpa e organiza os dados em um formato padronizado.
 - **Gestão de Requisitos**: Suporte para pré-requisitos e períodos das disciplinas.
+- **Geração de ICS**: Geração de arquivo ICS para importação em calendários.
 
 ## 🛠️ Pré-requisitos
 
@@ -61,14 +62,19 @@ python main.py
 Isso irá:
 1. Logar no portal.
 2. Salvar os dados brutos em `data/` (ignorados pelo Git).
-3. Transformar os dados brutos em `matricula_data_clean.json`.
+3. Transformar os dados brutos em `output/matricula_data.json`.
+4. Gerar o arquivo `output/agenda.ics`.
 
 ## 🎨 Visualização
 
-O arquivo `matricula_data_clean.json` gerado por este scraper é compatível com o projeto de visualização web:
+O arquivo `output/matricula_data.json` gerado por este scraper é compatível com o projeto de visualização web:
 
 - **Repositório**: [Grinnfi/planejador-de-matricula](https://github.com/Grinnfi/planejador-de-matricula)
 - **Página Web**: [Planejador de Matrícula](https://grinnfi.github.io/planejador-de-matricula)
+
+## 📅 ICS - Arquivo de Agenda
+
+O arquivo `output/agenda.ics` gerado por este scraper pode ser importado para o calendários como o Google Agenda, Outlook, etc.
 
 ---
 *Este projeto não possui vínculo oficial com o CEFET-RJ.*

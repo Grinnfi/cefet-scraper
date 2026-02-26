@@ -4,7 +4,7 @@ import re
 import os
 from datetime import date
 
-SAVE_PATH = "matricula_data_clean.json"
+SAVE_PATH = "output/matricula_data.json"
 
 DISCIPLINAS_APROVADAS_PATH = "data/disciplinas_aprovadas.json"
 REQUISITOS_PATH = "curriculum/requisitos.json"

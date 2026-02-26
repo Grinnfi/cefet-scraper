@@ -4,6 +4,7 @@ from scrap.get_disciplinas_aprovadas import get_disciplinas_aprovadas
 from scrap.get_turmas_matricula_data import get_turmas_matricula_data
 from scrap.get_turmas_disponiveis_data import get_turmas_disponiveis_data
 from transform.transform_data import run_transformation
+from transform.generate_ics import generate_ics
 
 def main():
     """
@@ -27,23 +28,27 @@ def main():
         os.makedirs("data", exist_ok=True)
         
         # 2. Raspagem de Disciplinas Aprovadas
-        print("\n[1/4] Raspando disciplinas aprovadas...")
+        print("\n[1/3] Raspando disciplinas aprovadas...")
         get_disciplinas_aprovadas(session=session, matricula=matricula)
         
         # 3. Raspagem de Turmas Matriculadas
-        print("\n[2/4] Raspando turmas matriculadas/solicitadas...")
-        get_turmas_matricula_data(session=session, matricula=matricula)
+        print("\n[2/3] Raspando turmas matriculadas/solicitadas...")
+        turmas_matricula_data = get_turmas_matricula_data(session=session, matricula=matricula)
         
         # 4. Raspagem de Turmas Disponíveis
-        print("\n[3/4] Raspando turmas disponíveis (isso pode demorar)...")
+        print("\n[3/3] Raspando turmas disponíveis (isso pode demorar)...")
         get_turmas_disponiveis_data(session=session, matricula=matricula)
         
+        print("\n=== Raspagem finalizada com sucesso! ===")
+
         # 5. Transformação de Dados
-        print("\n[4/4] Iniciando transformação de dados...")
+        print("\nIniciando transformação de dados...")
         run_transformation()
+
+        # 6. Geração de ICS
+        print("\nSalvando agenda...")
+        generate_ics(turmas_data=turmas_matricula_data)
         
-        print("\n=== Processo finalizado com sucesso! ===")
-        print("Arquivo gerado: matricula_data_clean.json")
         
     except PermissionError:
         print("\nErro: Usuário ou senha inválidos no arquivo .env")

@@ -69,7 +69,7 @@ def get_turma_data(session: requests.Session, turma_id: str) -> dict[str:str]:
         if valor and texto not in turma_data:
             turma_data[texto] = valor
 
-    for table_name in ['Docentes', 'Horários']:
+    for table_name in ['Docentes', 'Horários', 'Espaço Físico']:
         try:
             turma_data[table_name] = _parse_table_por_titulo(turma_soup, table_name)
         except: # Tabela vazia
