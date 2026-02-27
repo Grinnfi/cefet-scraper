@@ -4,7 +4,7 @@ import re
 import os
 from datetime import date
 
-SAVE_PATH = "output/matricula_data.json"
+OUTPUT_PATH = "output/matricula_data.json"
 
 DISCIPLINAS_APROVADAS_PATH = "data/disciplinas_aprovadas.json"
 REQUISITOS_PATH = "curriculum/requisitos.json"
@@ -186,9 +186,10 @@ def run_transformation():
         }
     }
 
-    with open(SAVE_PATH, "w") as f:
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    with open(OUTPUT_PATH, "w") as f:
         json.dump(full_package, f, indent= 4)
-    print("Dados salvos em ", SAVE_PATH)
+    print("Dados salvos em ", OUTPUT_PATH)
 
 
 if __name__ == "__main__":
