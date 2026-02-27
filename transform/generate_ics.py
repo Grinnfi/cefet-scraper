@@ -1,5 +1,6 @@
 import os
 import unicodedata
+import json
 from datetime import datetime, timedelta
 from scrap.get_turmas_matricula_data import get_turmas_matricula_data
 
